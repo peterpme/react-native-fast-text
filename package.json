@@ -4,6 +4,7 @@
   "description": "A temporary drop-in replacement for Text that makes it much faster",
   "main": "Text.js",
   "license": "MIT",
+  "types": "./index.d.ts",
   "peerDependencies": {
     "react": "*",
     "react-native": "*"

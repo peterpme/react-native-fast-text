@@ -4,7 +4,7 @@ A faster version of the React Native Text component that removes (for the most p
 
 ## Why?
 
-The native Text implementation includes additional *onPress props:
+The native Text implementation includes additional \*onPress props:
 
 - onLongPress
 - onPress
@@ -20,6 +20,22 @@ By removing this extra logic and going straight down into `RCTText` we have a mu
 Read this [Twitter thread by Nate](https://x.com/natebirdman/status/1695511232298783079?s=42)
 
 Here's the [Text implementation from React Native](https://github.com/facebook/react-native/blob/main/packages/react-native/Libraries/Text/Text.js)
+
+## Installation
+
+Install the module. Use it however you'd like.
+
+There's a codmod in here that will convert _all_ of your `import { Text } from 'react-native` to use `import { Text } from 'react-native-fast-text`.
+
+```
+npx jscodeshift -t node_modules/react-native-fast-text/codemods/transform-to-fast-text.js
+```
+
+Then when the time comes, you can also run a codemod to remove `react-native-fast-text`
+
+```
+npx jscodeshift -t node_modules/react-native-fast-text/codemods/transform-from-fast-text.js
+```
 
 ## Thanks
 
