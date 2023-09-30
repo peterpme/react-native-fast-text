@@ -1,2 +1,10 @@
 import { createElement } from "react";
-export const Text = (props) => createElement("RCTText", props);
+
+export const Text = ({
+  pressRectOffset,
+  onLongPress,
+  onPress,
+  onPressIn,
+  onPressOut,
+  ...props
+}) => createElement("RCTText", props);
