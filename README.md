@@ -23,4 +23,6 @@ Here's the [Text implementation from React Native](https://github.com/facebook/r
 
 ## Thanks
 
-All I did was create the package. The brains behind this is Nate from Tamagui ([@natebirdman](https://x.com/natebirdman)). Tamagui is an incredible cross platform library. [@FernandoTheRojo](https://x.com/FernandoTheRojo) also had some insightful tweets about this
+All I did was create the package. The brains behind this is Nate from Tamagui ([@natebirdman](https://x.com/natebirdman)). Tamagui is an incredible cross platform library.
+
+[@FernandoTheRojo](https://x.com/FernandoTheRojo) also had an awesome [thread](https://x.com/fernandotherojo/status/1707762822015267219?s=42) breaking down why this is happening
