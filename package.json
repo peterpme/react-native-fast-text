@@ -1,0 +1,11 @@
+{
+  "name": "react-native-fast-text",
+  "version": "1.0.0",
+  "description": "A temporary drop-in replacement for Text that makes it much faster",
+  "main": "Text.js",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*"
+  }
+}
